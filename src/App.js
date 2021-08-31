@@ -28,20 +28,25 @@ class App extends Component {
   render() {
     return (
       <div className='main-container'>
+      
         <h1 className='title'>Random CHUCK NORRIS Jokes</h1>
         <select onChange={this.handleChange}>
           <option>Select By Category</option>
           {this.state.categories.map((category) => (
+         
             <option key={category}>{category}</option>
             ))}
+     
         </select>
         <div>
           
             <h1 className='card'>{this.state.jokes.value}</h1>
         </div>
+      
       </div>
     );
   }
 }
   
 export default App;
+

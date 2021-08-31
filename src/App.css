@@ -14,7 +14,7 @@ body {
   margin-top: 70px;
   display: flex;
   height: 500px;
-  width: 300px;
+  width: 400px;
   background-color: #f7f4ff;
   border-radius: 10px;
   box-shadow: -1rem 0 3rem #000;
@@ -61,5 +61,19 @@ h4 {
 } */
 .options {
  cursor: pointer;
- color: aqua;
+ background-color: aqua;
+
 }
+Select {
+  width: 30%;
+  font-size: 20px;
+  font-weight: 500;
+  font-style:inherit;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  position: relative;
+  }
+
+
